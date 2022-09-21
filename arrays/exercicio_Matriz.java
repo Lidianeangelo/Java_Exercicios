@@ -8,7 +8,7 @@ public class exercicio_Matriz {
 	public static void main(String[] args) {
 
 		int[][] numero = new int[3][3];
-		int linha = 0, coluna = 0;
+		int linha = 0, coluna = 0, contagem=0;
 
 		Scanner leia = new Scanner(System.in);
 
@@ -18,15 +18,19 @@ public class exercicio_Matriz {
 				System.out.println("\nEntre com um número na linha: " + linha + " e coluna: " + coluna + " : ");
 				numero[linha][coluna] = leia.nextInt();
 
-				/*
-				  if (linha > 10 && coluna < 10) { System.out.println("aqui" +
-				 numero[linha][coluna]);
-				 */
-
-			}
+			
 
 		}
 
 	}
+		for (linha = 0; linha < 3; linha++) {
+			for (coluna = 0; coluna < 3; coluna++) {
+		 if (linha > 10 && coluna > 10) { 
+			  contagem++;
+			  System.out.println("aqui" +contagem);
+			
 
+		}}}
+
+}
 }
