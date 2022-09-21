@@ -1,6 +1,6 @@
 package exemplo;
 
-public class exercicio_Vetor {
+public class exercicio_Array {
 
 	public static void main(String[] args) {
 		//quantas posições no array
