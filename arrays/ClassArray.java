@@ -10,6 +10,7 @@ public class ClassArray {
 		int somaNumero = 0, linha, coluna;
 
 		Scanner leia = new Scanner(System.in);
+		leia.nextInt();
 
 		for (linha = 0; linha < 2; linha++) {
 			for (coluna = 0; coluna < 3; coluna++) {
